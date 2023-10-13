@@ -1,0 +1,57 @@
+*{
+    padding:0px;
+    margin:0px;
+    border: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; /*Es para que los elementos dentro un div no sobresalgan*/ 
+}
+.navbar-brand{
+    float: right;
+}
+
+.navbar-logo img{
+    display: block; 
+    width: 50%;
+    height: auto;
+}
+
+
+
+.centro{
+    width:100%;
+}
+
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    --bs-gutter-x: 0rem; 
+  
+}
+
+
+
+#texto{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+.nav ul{
+    float: right;
+}
+.abs-center {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    
+  }
+  
+  @media (max-width: @screen-xs-max) { 
+    
+    
+
+  }
